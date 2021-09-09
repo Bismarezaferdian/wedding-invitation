@@ -8,8 +8,8 @@ function App() {
     <Router>
       <GlobalStyle />
       <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/cover" component={Cover} exact />
+        <Route path="/" component={Cover} exact />
+        <Route path="/home" component={Home} exact />
       </Switch>
     </Router>
   );

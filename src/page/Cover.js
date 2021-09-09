@@ -81,7 +81,7 @@ const Cover = () => {
         </TextContent>
         <ContentCover>Kepada Bapak/Ibu/Saudara/i :</ContentCover>
         <NameCover>{name}</NameCover>
-        <Button to="/">
+        <Button to="/home">
           {" "}
           <BiEnvelopeOpen /> Buka Undangan{" "}
         </Button>

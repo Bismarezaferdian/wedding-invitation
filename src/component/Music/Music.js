@@ -45,7 +45,7 @@ const Music = () => {
       <Sound
         url={JanjiSuci}
         playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
-        playFromPosition={300}
+        playFromPosition={1000}
         volume={60}
       />
     </MusicWrapp>

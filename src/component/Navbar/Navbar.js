@@ -36,7 +36,7 @@ const Navbar = ({ togle }) => {
     <>
       <Nav navscroll={navscroll}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={togleHome}>
+          <NavLogo to="/home" onClick={togleHome}>
             Bisma & Novi
           </NavLogo>
           {/* <MobileIcon onClick={togle} navscroll={navscroll}> */}
