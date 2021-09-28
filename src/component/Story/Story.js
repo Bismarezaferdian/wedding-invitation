@@ -27,7 +27,7 @@ const Story = () => {
             <StoryContent>
               <Icon src={Berpacaran} />
               <StoryText>
-                05 juli 2016 <br /> mulai berpacaran{" "}
+                05 juli 2017 <br /> mulai berpacaran{" "}
               </StoryText>
             </StoryContent>
           </Fade>

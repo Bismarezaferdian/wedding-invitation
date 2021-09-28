@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import {
-  // BtnLinks,
-  // NavBtn,
-  // Button,
-  // MobileIcon,
   Nav,
   NavbarContainer,
   NavItem,
@@ -13,7 +9,9 @@ import {
   NavMenu,
 } from "./NavBarElement";
 
-const Navbar = ({ togle }) => {
+const Navbar = ({ togl
+  
+  e }) => {
   const [navscroll, setNavscroll] = useState(false);
 
   const ChangeNav = () => {

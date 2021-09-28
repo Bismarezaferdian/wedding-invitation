@@ -14,7 +14,7 @@ function Hero() {
   return (
     <HeroContainer>
       <HeroWrapp>
-        <Title>we're getting merried </Title>
+        <Title>we're getting married </Title>
         <HeroContent>
           <Fade bottom>
             <HeadStart> Bisma Reza Ferdian </HeadStart>
