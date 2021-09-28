@@ -9,9 +9,7 @@ import {
   NavMenu,
 } from "./NavBarElement";
 
-const Navbar = ({ togl
-  
-  e }) => {
+const Navbar = ({ togle }) => {
   const [navscroll, setNavscroll] = useState(false);
 
   const ChangeNav = () => {
@@ -37,8 +35,6 @@ const Navbar = ({ togl
           <NavLogo to="/home" onClick={togleHome}>
             Bisma & Novi
           </NavLogo>
-          {/* <MobileIcon onClick={togle} navscroll={navscroll}> */}
-          {/* </MobileIcon> */}
           <NavMenu>
             <NavItem>
               <NavLinks
